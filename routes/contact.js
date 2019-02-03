@@ -14,10 +14,10 @@ if(err) {
 }
 else{
     console.log(contactList);
-    /*res.render('contacts/index', {
+    res.render('contacts/index', {
 title: 'Contact List',
 contactList:contactList
-    });*/
+    });
 }
 })
 });
